@@ -1,0 +1,8 @@
+{
+  "name": "arg",
+  "workspaces": [
+    "ui",
+    "web"
+  ],
+  "private": true
+}
