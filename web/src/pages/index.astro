@@ -1,7 +1,6 @@
 ---
 // Component Imports
-import Tour from '../components/Tour.astro';
-import { HiMan } from 'test-ui';
+import { HiMan, TwitterIconLink } from 'test-ui';
 // You can import components from any supported Framework here!
 /* ASTRO:COMPONENT_IMPORTS */
 
@@ -14,7 +13,9 @@ let title = 'My Astro Site';
 // Full Astro Component Syntax:
 // https://docs.astro.build/core-concepts/astro-components/
 ---
-<html lang="en">
+<html lang="en" style="background-color: black; color: white">
 <head>
-    <HiMan client:load />
+    <HiMan />
+    <TwitterIconLink username="x" />
+
 </html>
